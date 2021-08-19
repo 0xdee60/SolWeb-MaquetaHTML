@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Servicios Mentales</title>
+    <link rel="shortcut icon" href="../imgs/icono_title.png">
+
+
+</head>
+
+<body>
+
+
+     <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(29, 140, 184);">
+        <a class="navbar-brand" style="color: white;" href="Home.html">
+            <img src="../imgs/frm_home.png" alt="logo" style=" align-items: center;" height="70px" width="55px">
+            <i>Servicios mentales</i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a style="color: white;" class="nav-link" href="Home.html">
+                    <img src="../imgs/icono_home.png" width="30px">
+                    Inicio
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a style="color: white;" class="nav-link" href="DatosPaciente.html">
+                    <img src="../imgs/icono_paciente.png" width="30px">
+                    Datos de afiliacion
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a style="color: white;" class="nav-link" href="CitasIndex.html">
+                    <img src="../imgs/icono_citas.png" width="30px">
+                    Citas
+                </a>
+            </li>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <li class="nav-item ">
+                <a style="color: white;" class="nav-link" href="Login.html">
+                    <img style="filter: invert(120);" src="../imgs/loguot.png" alt="logo" style=" align-items: center;"
+                        height="25px" width="25px">
+                    Cerrar sesión</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+
+    <div style="text-align: center; align-items: center;">
+            
+      <br>
+        <img src="../imgs/frm_paciente.png" alt="PacienteLogo" width="10%">
+        <br>
+        <h1 style="color:rgb(29, 140, 184);">Datos del paciente</h1>
+    </div>
+
+    <table class="table table-active" style="align-items: center; align-content: center; text-align: center;">
+        <tbody>
+            <form>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label>Nombres: </label>
+                            <input required type="text" class=" form-control" placeholder="Ingrese su nombre"
+                                value="Victor Steven">
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="form-group">
+                            <label>Apellidos: </label>
+                            <input required type="text" class=" form-control" placeholder="Ingrese su nombre"
+                                value="Chavez Rojas">
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="form-group">
+                            <label>DNI: </label>
+                            <input required type="number" class=" form-control" placeholder="Ingrese su nombre" value="12457898">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label>Sexo: </label>
+                            <select required name="" id="" class="form-control">
+                                <option>Seleccione un genero</option>
+                                <option value="Masculino" selected>Masculino</option>
+                                <option value="Femenino">Femenino</option>
+
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label>Fecha de nacimiento: </label>
+                            <input required type="date" class=" form-control" value="1998-05-15">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label>Direccion: </label>
+                            <input required type="text" class=" form-control" value="Jr. Santa Ana #666">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label>Celular: </label>
+                            <input required type="tel" class=" form-control" value="+51985659823">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label>Celular de emergencia: </label>
+                            <input required type="tel" class=" form-control" value="+51987412578">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label>Correo: </label>
+                            <input required type="text" class=" form-control" value="victor.chavez@gmail.com">
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label>Religion: </label>
+                            <input required type="text" class=" form-control" value="Satanista">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label>Estado civil: </label>
+                            <select required name="religion"  class="form-control">
+                                <option>Seleccione su estado</option>
+                                <option value="Soltero">Soltero</option>
+                                <option value="Casado">Casado</option>
+                                <option value="Viudo" selected>Viudo</option>
+                                <option value="Divorciado">Divorciado</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <label>Nivel academico: </label>
+                            <select required name="nivelAcademico" id="" class="form-control">
+                                <option>Seleccione su nivel</option>
+                                <option value="Inicial">Inicial culminada</option>
+                                <option value="Primaria">Primaria culminada</option>
+                                <option value="Secundaria">Secundaria culminada</option>
+                                <option value="Superior" selected>Superior culminada</option>
+                                <option value="Sin estudios">Sin estudios</option>
+
+                            </select>
+                        </div>
+                    </td>
+                  
+                </tr>
+                
+            
+        </tbody>
+    </table>
+    <center>
+        <a class="btn btn-danger" href="DatosPaciente.html">Cancelar</a>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+    </center>
+    <br><br>
+<!--Footer-->
+<div class="card bg-primary">
+    <table class="container">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="card-body" style="color: white;">
+                        <h5 class="card-title ">Correos</h5>
+                        <p class="card-text ">
+                            <ul>
+                                <li>serviciosmentales@psiquiatria.pe</li>
+                                <li>servmental@psiquiatria.pe</li>
+                                <li>serviciosmentales@gmail.com.pe</li>
+                            </ul>
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card-body" style="color: white;">
+                        <h5 class="card-title ">Teléfonos</h5>
+                        <p class="card-text ">
+                            <ul>
+                                <li>+51 985 245 689</li>
+                                <li>+51 076 987 423</li>
+                                <li>+51 076 311 544</li>
+                            </ul>
+                            
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card-body" style="color: white;">
+                        <h5 class="card-title ">Servicios</h5>
+                        <p class="card-text ">
+                            <ul>
+                                <li>Consulta psiquiatrica</li>
+                                <li>Certificados medicos</li>
+                            </ul>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            
+                
+            <td>
+                <div class="row card-text">
+                    <div class="col-sm-12">
+                        <i style="color: white; text-align: center;">Copyright © Servicios Mentales 2020</i>
+                    </div>
+                </div>
+            </td>
+            <td>
+
+            </td>
+            <td>
+                <div style="color: white;">
+                    <a href="#" style="color: white;">Privacy Policy</a>
+                    ·
+                    <a href="#" style="color: white;">Terms &amp; Conditions</a>
+                </div>
+            </td>    
+        </tbody>
+    </table>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

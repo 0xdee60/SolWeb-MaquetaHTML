@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<title>Servicios Mentales</title>
+    <link rel="shortcut icon" href="https://www.pngrepo.com/download/284250/surgeon-doctor.png">
+</head>
+<body>
+    <!--NAVBAR Superior-->
+    <nav class="sb-topnav navbar navbar-expand navbar-primary bg-primary">
+        <a class="navbar-brand" style="color: white;" href="Home.html">
+            <img src="../imgs/frm_home.png" alt="logo" style=" align-items: center;" height="70px" width="55px">
+            <i>Servicios mentales</i>
+        </a>
+        <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
+        <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+            <div class="input-group">
+                <div class="input-group-append">
+                    <a style="color: white;" class="nav-link" href="Login.html">
+                        <img style="filter: invert(120);" src="../imgs/loguot.png" alt="logo" style=" align-items: center;" height="25px" width="25px">
+                        Cerrar sesión</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+        <!-- Navbar Izquierda -->
+       
+        <div class="body row">
+            <div class="col-sm-2" style="background-color: rgb(19, 94, 124);">
+                <nav class="navbar-expand navbar-primary flex-column" aria-label="#" >
+                    
+                        <div class="nav-item btn" >
+                            <a class="nav-link active" href="Home.html" style="color: white;">
+                            <img src="../imgs/icono_home.png" alt="logo" style=" align-items: center;" height="50px" width="50px">
+                            Inicio
+                            </a>
+                        </div>
+                        <br>
+                        <div class="nav-item btn ">
+                            <a class="nav-link active" href="PacientesIndex.html" style="color: white;">
+                                <img src="../imgs/icono_paciente.png" alt="logo" style=" align-items: center;" height="40px" width="40px">
+                                Pacientes
+                            </a>
+                        </div>
+                        <br>
+                        <div class="nav-item btn ">
+                            <a class="nav-link active" href="TrabajadoresIndex.html" style="color: white;">
+                                <img src="../imgs/icono_profesionales.png" alt="logo" style=" align-items: center;" height="40px" width="40px">
+                                Trabajadores
+                            </a>
+                        </div>
+                        <br>
+                        
+                        <br>
+                        
+                       
+                                 
+                </nav>
+            </div>
+                <div class="col-sm-10">
+    
+
+
+                    <!--Contenido-->
+                    
+
+
+                    
+                        
+
+
+                        <div style="text-align: center; align-items: center;">
+                
+                            <br>
+                
+                            <h1 style="color:rgb(29, 140, 184);">Registrar cajero</h1>
+                        </div>
+
+                      
+                            
+                     
+    
+                        
+                        <br>
+    
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    Nombres:
+                                    <input name="nombres" class="form-control" type="text" placeholder="Ingrese su nombre">
+                                </div>
+                                <div class="col-sm-4">
+                                    Apellidos:
+                                    <input name="apellidos" class="form-control" type="text" placeholder="Ingrese sus apellidos">
+
+                                </div>
+                                <div class="col-sm-4">
+                                    DNI:
+                                    <input name="dni" class="form-control" type="text" placeholder="Ingrese su DNI">
+
+                                </div>
+                               
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    Sexo:
+                                    <select name="sexo" class="form-control">
+                                        <option value="">Selecciona tu genero</option>
+                                        <option value="Masculino">Masculino</option>
+                                        <option value="Femenino">Femenino</option>
+                                        <option value="N/A">Prefiero no decirlo</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-4">
+                                    Fecha de nacimiento:
+                                    <input name="fechaNac" class="form-control" type="date" >
+
+                                </div>
+                                <div class="col-sm-4">
+                                    Direccion:
+                                    <input name="direccion" class="form-control" type="text" placeholder="Ingrese su DNI">
+
+                                </div>
+                               
+                            </div>
+                            <br>
+                            <div class="row">
+                                
+                                <div class="col-sm-6">
+                                    Celular personal:
+                                    <input name="celularPersonal" class="form-control" type="tel" placeholder="Ingrese su numero de celular" >
+
+                                </div>
+                                <div class="col-sm-6">
+                                    Correo:
+                                    <input name="correo" class="form-control" type="email" placeholder="Ingrese su correo">
+
+                                </div>
+                               
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    Usuario:
+                                    <input name="cmp" class="form-control" type="text" placeholder="Ingrese su usuario" >
+
+                                </div>
+                                <div class="col-sm-4">
+                                    Contraseña:
+                                    <input name="celularPersonal" class="form-control" type="tel" placeholder="Ingrese su contraseña" >
+
+                                </div>
+                                <div class="col-sm-4">
+                                    Re - Contraseña:
+                                    <input name="correo" class="form-control" type="email" placeholder="Vuelva a ingresar su contraseña">
+
+                                </div>
+                              
+                            </div>
+ <center>
+    <br>
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+
+                            <a class="btn btn-danger" href="CajerosIndex.html">Regresar</a>
+                        </center>   
+
+                        </form>
+    
+                       
+                        <br><br>
+                        
+                        
+                    </div>
+
+
+    
+    
+                </div>
+        </div>
+            
+        
+       
+            <div class="card bg-primary" >
+                <table class="container">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="card-body" style="color: white;">
+                                    <h5 class="card-title ">Correos</h5>
+                                    <p class="card-text ">
+                                        <ul>
+                                            <li>serviciosmentales@psiquiatria.pe</li>
+                                            <li>servmental@psiquiatria.pe</li>
+                                            <li>serviciosmentales@gmail.com.pe</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card-body" style="color: white;">
+                                    <h5 class="card-title ">Teléfonos</h5>
+                                    <p class="card-text ">
+                                        <ul>
+                                            <li>+51 985 245 689</li>
+                                            <li>+51 076 987 423</li>
+                                            <li>+51 076 311 544</li>
+                                        </ul>
+                                        
+                                    </p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card-body" style="color: white;">
+                                    <h5 class="card-title ">Servicios</h5>
+                                    <p class="card-text ">
+                                        <ul>
+                                            <li>Consulta psiquiatrica</li>
+                                            <li>Certificados medicos</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                            
+                        <td>
+                            <div class="row card-text">
+                                <div class="col-sm-12">
+                                    <i style="color: white; text-align: center;">Copyright © Servicios Mentales 2020</i>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+        
+                        </td>
+                        <td>
+                            <div style="color: white;">
+                                <a href="#" style="color: white;">Privacy Policy</a>
+                                ·
+                                <a href="#" style="color: white;">Terms &amp; Conditions</a>
+                            </div>
+                        </td>    
+                    </tbody>
+                </table>
+            </div>
+            
+   
+        
+    
+            <script>
+                // Write on keyup event of keyword input element
+                $(document).ready(function(){
+                $("#search").keyup(function(){
+                _this = this;
+                // Show only matching TR, hide rest of them
+                $.each($("#mytable tbody tr"), function() {
+                if($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
+                $(this).hide();
+                else
+                $(this).show();
+                });
+                });
+               });
+               </script>
+
+
+
+    
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>

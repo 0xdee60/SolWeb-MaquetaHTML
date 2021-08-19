@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<title>Servicios Mentales</title>
+<link rel="shortcut icon" href="../imgs/icono_title.png">
+</head>
+<body>
+   <!--NAVBAR Superior-->
+
+   <nav class="sb-topnav navbar navbar-expand navbar-primary bg-primary">
+    <a class="navbar-brand" style="color: white;" href="Home.html">
+        <img src="../imgs/frm_home.png" alt="logo" style=" align-items: center;" height="70px" width="55px">
+        <i>Servicios mentales</i>
+    </a>
+    <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+        <div class="input-group">
+            <div class="input-group-append">
+                <a style="color: white;" class="nav-link" href="Login.html">
+                    <img style="filter: invert(120);" src="../imgs/loguot.png" alt="logo"
+                        style=" align-items: center;" height="25px" width="25px">
+                    Cerrar sesión</a>
+            </div>
+        </div>
+    </div>
+</nav>
+    
+        <!-- Navbar Izquierda -->
+       
+        <div class="body row">
+            <div class="col-sm-2" style="background-color: rgb(19, 94, 124);">
+                <nav class="navbar-expand navbar-primary flex-column" aria-label="#">
+    
+                    <div class="nav-item btn">
+                        <a class="nav-link active" href="Home.html" style="color: white;">
+                            <img src="../imgs/icono_home.png" alt="logo" style=" align-items: center;" height="50px"
+                                width="50px">
+                            Inicio
+                        </a>
+                    </div>
+                    <br>
+                    <div class="nav-item btn ">
+                        <a class="nav-link active" href="PacientesIndex.html" style="color: white;">
+                            <img src="../imgs/icono_paciente.png" alt="logo" style=" align-items: center;" height="50px"
+                                width="50px">
+                            Pacientes
+                        </a>
+                    </div>
+                    <br>
+                    <div class="nav-item btn">
+                        <a class="nav-link active" href="CitasIndex.html" style="color: white;">
+                            <img src="../imgs/icono_citas.png" alt="logo" style=" align-items: center;" height="50px"
+                                width="50px">
+                            Citas
+                        </a>
+                    </div>
+    
+    
+                </nav>
+            </div>
+                <div class="col-sm-10">
+    
+                    <div class="container" style="align-items: center; align-content: center;">
+                        <div style="text-align: center; align-items: center;">
+                
+                            <br>
+                
+                            <h1 style="color:rgb(29, 140, 184);">Agendar cita</h1>
+                        </div>
+
+                   
+
+
+                    </div>
+                    <table class="container table-active table">
+                        <tbody>
+                            <form>
+                                <tr>
+                                    <td>
+                                        <label>Motivo de la cita</label>
+                                        <select required name="motivo" id="idMotivo" class="form-control">
+                                            <option value="1">Consulta</option>
+                                            <option value="2">Control</option>
+                                      
+                                        </select>                          
+                                    </td>
+                                    <td>
+                                        <label>Fecha de cita</label>
+                                        <input required class="form-control" name="fechaCita" id="idFechaCita" type="date">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label>Paciente</label>
+                                        <input required class="form-control" type="text" value="Aleister Saenz" disabled>           
+                                    </td>
+                                    <td>
+                                        <label>Horarios disponibles</label>
+                                        <select required name="horario" id="idHorario" class="form-control">
+                                            <option value="08:00 AM - 10:00 AM">08:00 AM - 10:00 AM</option>
+                                            <option value="10:00 AM - 12:00 PM">10:00 AM - 12:00 PM</option>
+                                            <option value="03:00 PM - 05:00 PM">03:00 PM - 05:00 PM</option>
+                                            <option value="07:00 PM - 09:00 PM">07:00 PM - 09:00 PM</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right;">
+                                        <label style="text-align: right;">Costo (S/.)</label>
+                                    </td>
+                                    <td>                                        <input value="100.00" class="form-group" disabled>
+                                    </td>
+                                </tr>
+                            
+                            
+                        </tbody>
+                    </table>
+                    <center>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                    <a href="CitasIndex.html" class="btn btn-danger">Cancelar</a>
+                </center>
+                </form>
+
+
+
+
+                    <br>
+                    </div>
+
+
+    
+    
+                </div>
+        </div>
+            
+        
+       
+            <div class="card bg-primary" >
+                <table class="container">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="card-body" style="color: white;">
+                                    <h5 class="card-title ">Correos</h5>
+                                    <p class="card-text ">
+                                        <ul>
+                                            <li>serviciosmentales@psiquiatria.pe</li>
+                                            <li>servmental@psiquiatria.pe</li>
+                                            <li>serviciosmentales@gmail.com.pe</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card-body" style="color: white;">
+                                    <h5 class="card-title ">Teléfonos</h5>
+                                    <p class="card-text ">
+                                        <ul>
+                                            <li>+51 985 245 689</li>
+                                            <li>+51 076 987 423</li>
+                                            <li>+51 076 311 544</li>
+                                        </ul>
+                                        
+                                    </p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card-body" style="color: white;">
+                                    <h5 class="card-title ">Servicios</h5>
+                                    <p class="card-text ">
+                                        <ul>
+                                            <li>Consulta psiquiatrica</li>
+                                            <li>Certificados medicos</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                            
+                        <td>
+                            <div class="row card-text">
+                                <div class="col-sm-12">
+                                    <i style="color: white; text-align: center;">Copyright © Servicios Mentales 2020</i>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+        
+                        </td>
+                        <td>
+                            <div style="color: white;">
+                                <a href="#" style="color: white;">Privacy Policy</a>
+                                ·
+                                <a href="#" style="color: white;">Terms &amp; Conditions</a>
+                            </div>
+                        </td>    
+                    </tbody>
+                </table>
+            </div>
+            
+   
+        
+    
+            <script>
+                // Write on keyup event of keyword input element
+                $(document).ready(function(){
+                $("#search").keyup(function(){
+                _this = this;
+                // Show only matching TR, hide rest of them
+                $.each($("#mytable tbody tr"), function() {
+                if($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
+                $(this).hide();
+                else
+                $(this).show();
+                });
+                });
+               });
+               </script>
+
+
+
+    
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
